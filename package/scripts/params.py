@@ -11,8 +11,8 @@ files_dir = package_dir + 'files/'
 scripts_dir = package_dir + 'scripts/'
 distribution = platform.linux_distribution()[0].lower()
 
-if distribution in ['centos', 'redhat'] :
-  repo_dir = files_dir+'repos/rhel6/'
-  os_repo_dir = '/etc/yum.repos.d/'
+#if distribution in ['centos', 'redhat'] :
+repo_dir = files_dir+'repos/rhel6/'
+os_repo_dir = '/etc/yum.repos.d/'
 
 commands = []
